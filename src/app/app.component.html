@@ -1,0 +1,35 @@
+<hello name="{{ name }}"></hello>
+
+
+<div id="pdfTable" #pdftable>
+  <h2>Angular HTML To PDF Example</h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>אמיר</th>
+      <th>Lastname</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>John</td>
+      <td>Smith</td>
+      <td>john@example.com</td>
+    </tr>
+    <tr>
+      <td>Zalmers</td>
+      <td>Nilsen</td>
+      <td>nilsen@example.com</td>
+    </tr>
+    <tr>
+      <td>Zoller </td>
+      <td>Dooley</td>
+      <td>zoller@example.com</td>
+    </tr>
+    </tbody>
+  </table>
+  test אמיר
+</div>
+
+<button (click)="generatePdf()">Open PDF</button>
